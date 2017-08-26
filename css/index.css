@@ -1,0 +1,78 @@
+			body {
+				background-color: #000000;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			a {
+				color: #0078ff;
+			}
+
+			div.container_content{
+				margin: 0px;
+			    width: 100%;
+			    height: 100vh;
+			    text-align: center;
+			 	position: absolute;
+			 	display: flex;
+			 	flex-direction: column;
+			 	justify-content: center;
+			}
+
+			div.content{
+				color: white;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				
+
+			}
+
+			div.content h1{
+				font-family: "Brush Script MT", cursive;
+				font-size: 5em;
+			}
+
+			div.content_box{
+				margin: auto;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				flex-direction: column;
+				
+			}
+
+
+			img.content_img{
+				opacity: 0.8;
+				width: 400px;
+			}
+
+			button.content_button{
+				font-family: "Lucida Console", Monaco, monospace;
+				background-color: rgba(59,204,245,0.3);
+				color: #DDF0F5;
+			}
+
+			@media screen and (max-width: 480px) {
+				img.content_img{
+					width: 300px;
+				}
+
+			    div.content_box {
+
+			    }
+			}
+
+			@media screen and (min-width: 720px) {
+			    div.content_box {
+			    	
+			    }
+			}
+
+			@media screen and (min-width: 1028px) {
+			    div.content_box {
+			    	
+			    }
+			}
